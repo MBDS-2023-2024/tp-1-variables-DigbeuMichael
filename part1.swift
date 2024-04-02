@@ -21,7 +21,7 @@ for i in 0...tab_travel.count-1{
   }   
 }
 
-print("L'inverse de la liste est:\(tab_travel.reversed()))")
+print("L'inverse de la liste est:\(Array(tab_travel.reversed()))")
 
 var tab_inverse = Array(tab_travel.reversed())
 
